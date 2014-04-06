@@ -1,4 +1,27 @@
-.reveal i{
+.reveal section i {
   font-family: 'FontAwesome';
   font-style: normal;
+}
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+section.toc div {
+  display: inline-block;
+  text-align: left
+}
+
+section.toc h2 {
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+
+section.toc h2.active {
+  opacity: 1;
+}
+
+.reveal .attribution {
+  font-size: 0.8em;
 }
