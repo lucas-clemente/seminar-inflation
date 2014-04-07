@@ -36,6 +36,11 @@ section.toc h2.active {
 
 
 
+#title h1 {
+  font-size: 8em;
+}
+
+
 #sec-sources ul {
   font-size: 0.7em;
 }
