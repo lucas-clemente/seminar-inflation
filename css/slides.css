@@ -25,3 +25,7 @@ section.toc h2.active {
 .reveal .attribution {
   font-size: 0.8em;
 }
+
+#sec-sources ul {
+  font-size: 0.7em;
+}
