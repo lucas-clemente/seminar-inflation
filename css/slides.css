@@ -34,6 +34,10 @@ section.toc h2.active {
   margin-bottom: 0.7em;
 }
 
+.reveal p small {
+  display: block;
+  margin-top: 15px;
+}
 
 
 #title h1 {

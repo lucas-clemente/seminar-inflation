@@ -54,10 +54,28 @@
 
      <section class="toc">
         <div>
-          <h2 class="active">Motivation</h2>
-          <h2>Inflation &amp; Consequences</h2>
+          <h2 class="active">Inflation</h2>
+          <h2>Quantum Effects</h2>
           <h2>Observation</h2>
         </div>
+      </section>
+
+      <section>
+        <img src="img/cmb.png">
+        <p>
+          Cosmic Microwave Background (CMB)
+        </p>
+        <p class="attribution">
+          <a href="https://en.wikipedia.org/wiki/File:Ilc_9yr_moll4096.png">Image</a>
+          by NASA / Public Domain
+        </p>
+      </section>
+
+      <section>
+        <h4>Problems:</h4>
+        <h2>Horizon</h2>
+        <h2>Flatness</h2>
+        <h2>Monopoles</h2>
       </section>
 
       <section>
@@ -81,7 +99,7 @@
           comoving horizon: $\tau = \int_0^t \frac{dt'}{a(t')} = \int_0^a (a' H)^{-1} d \ln a'$
         </p>
         <p>
-          maximum distance light can travel in time $t$
+          maximum distance light can have travelled in time $t$
         </p>
       </section>
 
@@ -103,7 +121,7 @@
         <h1>Horizon Problem</h1>
         <h3>If $(a H)^{-1}$ grows in time...</h3>
         <p>
-          ... stuff entering the Hubble volume today<br>
+          ... stuff entering the comoving Hubble volume today<br>
           cannot have been in contact before!
         </p>
         <p>
@@ -118,12 +136,105 @@
         </p>
       </section>
 
+      <section>
+        <h2>Curvature of space</h2>
+        <p>
+          Friedmann Equation: $H^2 = \frac 1 3 \rho(a) - \frac{k}{a^2}$
+          <small>
+            where $k$: curvature (flat is $k=0$)
+          </small>
+
+        </p>
+        <p>
+          $1 - \frac{\rho(a)}{\rho_c(a)} = 1 - \Omega(a) = - \frac{k}{(aH)^2}$
+        </p>
+        <p>
+          Critical density: ~5 hydrogen per m<sup>3</sup>
+          <small>Ordinary matter: ~0.2 per m<sup>3</sup>, rest is "dark" matter</small>
+        </p>
+      </section>
+
+      <section>
+        <h1>Flatness Problem</h1>
+        <h3>
+          $1-\Omega$ must have been <em>fine tuned</em><br>
+          to $~10^{-62}$ in Planck era!
+        </h3>
+      </section>
+
+      <section>
+        <h1>Enter inflation</h1>
+        <h3>a decreasing comoving Hubble radius</h3>
+      </section>
+
+      <section>
+        <h1>Inflation</h1>
+        <p>
+          comoving Hubble radius decreases $d_t (aH)^{-1} &lt; 0$
+          <small>Hubble radius $H^{-1}$ is constant</small>
+        </p>
+        <p>
+          scale factor increases $\ddot a > 0$
+        </p>
+        <p>
+          (negative pressure)
+        </p>
+      </section>
+
+      <section>
+        <img src="img/hubble-radius-plot.png">
+        <p class="attribution">
+          Image by Daniel Baumann / <a href="http://arxiv.org/abs/0907.5424">arXiv:0907.5424</a>
+        </p>
+      </section>
+
+      <section>
+        <img src="img/hubble-radius-universe.png">
+        <p class="attribution">
+          Image by Daniel Baumann / <a href="http://arxiv.org/abs/0907.5424">arXiv:0907.5424</a>
+        </p>
+      </section>
+
+      <section>
+        <h3>Horizon problem</h3>
+        <h1>solved</h1>
+        <h3>
+          At CMB formation,<br>
+          observable universe was<br>
+          causally connected
+        </h3>
+      </section>
+
+      <section>
+        <h3>Flatness problem</h3>
+        <h1>solved</h1>
+        <p>
+          $1 - \Omega(a) = - \frac{k}{(aH)^2}$
+        </p>
+        <h3>flat universe is attractor</h3>
+      </section>
+
+      <section class="toc">
+         <div>
+           <h2>Inflation</h2>
+           <h2 class="active">Quantum Effects</h2>
+           <h2>Observation</h2>
+         </div>
+       </section>
 
 
 
 
 
 
+
+      <section class="toc">
+         <div>
+           <h2>Inflation</h2>
+           <h2>Quantum Effects</h2>
+           <h2 class="active">Observation</h2>
+         </div>
+       </section>
 
 
 
@@ -170,13 +281,6 @@
 
 
 
-
-
-
-
-
-
-
     </div>
   </div>
 
@@ -194,7 +298,7 @@
       transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
 
       math: {
-        mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+        mathjax: 'https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js',
         config: 'TeX-AMS_HTML-full'
       },
 
