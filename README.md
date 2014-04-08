@@ -1,6 +1,6 @@
 # Seminar on Inflation
 
-Seminar help in 2014-04-09 for the MPQ Theory seminar
+Seminar on 2014-04-09 for the MPQ Theory seminar
 
 see https://clemente.io/inflation
 
