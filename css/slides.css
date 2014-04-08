@@ -6,6 +6,7 @@
 .reveal section img {
   border: none;
   box-shadow: none;
+  height: 600px;
 }
 
 section.toc div {
@@ -47,4 +48,14 @@ section.toc h2.active {
 
 #sec-sources ul {
   font-size: 0.7em;
+}
+
+ul.links-left {
+  float: left;
+  width: 50%;
+}
+
+ul.links-right {
+  float: right;
+  width: 50%;
 }

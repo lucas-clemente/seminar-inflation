@@ -52,13 +52,21 @@
         </p>
       </section>
 
-     <section class="toc">
-        <div>
-          <h2 class="active">Inflation</h2>
-          <h2>Quantum Effects</h2>
-          <h2>Observation</h2>
-        </div>
+      <section>
+        <img src="img/history.png">
+        <p class="attribution">
+          <a href="https://en.wikipedia.org/wiki/File:History_of_the_Universe.svg">Image</a>
+          by Yinweichen / CC BY SA
+        </p>
       </section>
+
+     <section class="toc">
+       <div>
+         <h2 class="active">Inflation</h2>
+         <h2>Quantum Effects</h2>
+         <h2>Observation</h2>
+       </div>
+     </section>
 
       <section>
         <img src="img/cmb.png">
@@ -81,10 +89,11 @@
       <section>
         <h3>FLRW Metric</h3>
         <p>
-          $ds^2 = a^2(t) (- d\tau^2 + d\Sigma^2)$
+          $ds^2 = - dt^2 + a^2(t) d\Sigma^2$
+          <small>scale factor $a(t)$</small>
         </p>
         <p>
-          with scale factor $a(t)$
+          $ds^2 = a^2(t) (- d\tau^2 + d\Sigma^2)$
         </p>
         <p>
           Hubble parameter $H = \frac{\dot a}{a}$
@@ -96,10 +105,24 @@
 
       <section>
         <p>
-          comoving horizon: $\tau = \int_0^t \frac{dt'}{a(t')} = \int_0^a (a' H)^{-1} d \ln a'$
+          comoving horizon: $\tau = \int d\tau = \int_0^t \frac{dt'}{a(t')} = \int_0^a (a' H)^{-1} d \ln a'$
         </p>
         <p>
           maximum distance light can have travelled in time $t$
+        </p>
+      </section>
+
+      <section>
+        <h2>Three lengths</h2>
+        <p>
+          Radius of the observable universe $\tau$ 46 Gly
+        </p>
+        <p>
+          Comoving Hubble radius $(aH)^{-1}$: 14 Gly
+          <small>larger due to dark energy</small>
+        </p>
+        <p>
+          Age of the universe: 13.8 Gy
         </p>
       </section>
 
@@ -130,7 +153,7 @@
       </section>
 
       <section>
-        <img height="500px" src="img/horizon-problem.png">
+        <img src="img/horizon-problem.png">
         <p class="attribution">
           <a href="https://en.wikipedia.org/wiki/File:Horizon_problem.svg">Image</a> by Chrkl / CC BY SA
         </p>
@@ -267,24 +290,6 @@
       </section>
 
       <section>
-        <h2>Quantum fluctuations</h2>
-        <p>
-          $\delta \phi$ causes fluctuations in reheating time
-          <br>
-          &amp; energy density (redshift)
-        </p>
-        <p>
-          $\delta t \sim \frac{\delta \phi}{\dot \phi} \sim \frac{H}{\dot \phi}$
-        </p>
-        <p>
-          $\delta_S = \frac{\delta \rho}{\rho} \sim \frac{\delta a}{a} \sim \frac{\dot a \delta t}{a} \sim \frac{H^2}{\dot \phi}$
-        </p>
-        <p>
-          $\delta_S^2 = \frac{1}{m_P} \frac{V^3}{V'^2}$
-        </p>
-      </section>
-
-      <section>
         <h2>Scalar and tensor fluctuations</h2>
         <p>
           $\delta_S^2 = \frac{1}{m_P} \frac{V^3}{V'^2}$
@@ -292,7 +297,9 @@
         <p>
           $\delta_T^2 = \frac{V}{m_P^4}$
         </p>
-
+        <p>
+          $r = \frac{\delta_T^2}{\delta_S^2}
+        </p>
       </section>
 
 
@@ -301,14 +308,36 @@
 
 
       <section class="toc">
-         <div>
-           <h2>Inflation</h2>
-           <h2>Quantum Effects</h2>
-           <h2 class="active">Observation</h2>
-         </div>
-       </section>
+        <div>
+          <h2>Inflation</h2>
+          <h2>Quantum Effects</h2>
+          <h2 class="active">Observation</h2>
+        </div>
+      </section>
 
+      <section>
+        <img src="img/cobe-wmap-planck.png">
+        <p class="attribution">
+          <a href="https://en.wikipedia.org/wiki/File:PIA16874-CobeWmapPlanckComparison-20130321.jpg">Image</a>
+          by NASA / Public Domain
+        </p>
+      </section>
 
+      <section>
+        <img src="img/south-pole.jpg">
+        <p class="attribution">
+          <a href="https://en.wikipedia.org/wiki/File:South_pole_spt_dsl.jpg">Image</a>
+          by Amble / CC BY SA
+        </p>
+      </section>
+
+      <section>
+        <img src="img/bicep2.jpg">
+        <p class="attribution">
+          <a href="https://en.wikipedia.org/wiki/File:PIA17993-DetectorsForInfantUniverseStudies-20140317.jpg">Image</a>
+          by NASA / Public Domain
+        </p>
+      </section>
 
 
 
@@ -322,7 +351,7 @@
 
       <section id="sec-sources">
         <h3>Links &amp; References</h3>
-        <ul>
+        <ul "links-left">
           <li><a href="https://en.wikipedia.org/wiki/Cosmic_inflation">WP Inflation</a></li>
           <li><a href="https://en.wikipedia.org/wiki/Timeline_of_the_Big_Bang">WP Timeline of the Big Bang</a></li>
           <li><a href="https://en.wikipedia.org/wiki/Metric_expansion">WP Metric Expansion</a></li>
@@ -330,12 +359,15 @@
           <li><a href="https://en.wikipedia.org/wiki/Flatness_problem">WP Flatness Problem</a></li>
           <li><a href="https://en.wikipedia.org/wiki/Primordial_fluctuations">WP Primordial Fluctuations</a></li>
           <li><a href="https://en.wikipedia.org/wiki/Lambda-CDM_model">WP Lambda-CDM Model</a></li>
+        </ul>
+        <ul class="links-right">
           <li><a href="http://raumzeit-podcast.de/2013/08/23/rz055-planck/">ESA Podcast on Planck (German)</a></li>
           <li><a href="http://quantumfrontiers.com/2014/03/23/inflation-on-the-back-of-an-envelope/">John Preskill on Inflation (Caltech Blog)</a></li>
-          <li><a href="http://arxiv.org/abs/0907.5424">Daniel Baumann: Lectures on Inflation (thanks Ivan!)</a></li>
+          <li><a href="http://arxiv.org/abs/0907.5424">D Baumann: Inflation lectures (thanks Ivan!)</a></li>
           <li><a href="https://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-2576.pdf">Guth's original paper on inflation</a></li>
-          <li><a href="http://news.sciencemag.org/physics/2014/04/scientists-find-imprint-universe-existed-big-bang">Discovery of Deflation by TRICEP (thanks Geza!)</a></li>
+          <li><a href="http://news.sciencemag.org/physics/2014/04/scientists-find-imprint-universe-existed-big-bang">Deflation detected by TRICEP (thanks Geza!)</a></li>
           <li><a href="http://arxiv.org/abs/1403.3985">BICEP2 paper</a></li>
+
         </ul>
       </section>
 
@@ -346,17 +378,6 @@
           once again, <a href="https://clemente.io/inflation">clemente.io/inflation</a>
         </p>
       </section>
-
-      <section>
-        <img src="img/history.png">
-        <p class="attribution">
-          <a href="https://en.wikipedia.org/wiki/File:History_of_the_Universe.svg">Image</a>
-          by Yinweichen / CC BY SA
-        </p>
-      </section>
-
-
-
 
     </div>
   </div>
